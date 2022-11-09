@@ -1,0 +1,44 @@
+ul {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.satu {
+   padding: 24px;
+}
+
+.h_span {
+    column-span: all;
+}
+
+p {
+    text-align: justify;
+    column-count: 4;
+    column-gap: 15px;
+    column-rule: 2px solid black;
+}
+
+main {
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 5px #b6b6b6; ;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
